@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+App.js
+app.json
+index.js
+package.json
+package-lock.json
+assets/
+
+# Native
+/ios
+/android
+.kotlin/
+*.orig.*
+.metro-health-check*
+
+# macOS
+.DS_Store
+
+# local env files
+.env*.local
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# IDE
+.idea/
+
+# Claude
+.claude/
+CLAUDE.md
+AGENTS.md
